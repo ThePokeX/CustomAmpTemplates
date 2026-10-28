@@ -1,0 +1,9 @@
+[
+    {
+        "UpdateStageName": "Downloading Newest Build",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "GitRepo",
+        "UpdateSourceData": "https://github.com/vsimochi/ACGC-PC-Multiplayer.git",
+        "UpdateSourceTarget": "ACGC-PC-Multiplayer"
+    }
+]
