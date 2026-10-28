@@ -36,7 +36,7 @@ App.StoreDownloadLocations={}
 App.ExecutableWin=serverfiles\AnimalCrossing.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=serverfiles
-App.LinuxCommandLineArgs=-a env TZ='America/New_York' /usr/bin/wine "./AnimalCrossing.exe"
+App.LinuxCommandLineArgs=-a /usr/bin/wine "./AnimalCrossing.exe"
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} --host {{$MainGamePort}} --dedicated {{$FormattedArgs}} --updater-skip 
 App.UseLinuxIOREDIR=False
@@ -80,7 +80,7 @@ App.TelnetLoginFormat={0}
 App.TelnetNewLineType=Default
 App.TailLogFilePath=server.log
 App.UpdateSources=@IncludeJson[animal-crossing-gc-multiplayerupdates.json]
-App.PreStartStages=@IncludeJson[animal-crossing-gc-multiplayerprestart.json]
+App.PreStartStages=[]
 App.CommandTriggers={}
 App.UserActions=[]
 App.ForceUpdate=False
