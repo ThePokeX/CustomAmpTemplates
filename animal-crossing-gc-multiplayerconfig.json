@@ -97,5 +97,18 @@
         "IncludeInCommandLine": true,
         "DefaultValue": "on",
         "Placeholder": "on/off"
+    },
+    {
+        "DisplayName": "Time Zone",
+        "Category": "Animal Crossing GC Multiplayer:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "(Only used in linux) Set the time zone string for the server",
+        "Keywords": "time,zone",
+        "FieldName": "timezone",
+        "InputType": "text",
+        "Order": 18,
+        "ParamFieldName": "timezone",
+        "DefaultValue": "America/New_York",
+        "Placeholder": "America/New_York"
     }
 ]
