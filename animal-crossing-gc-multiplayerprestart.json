@@ -5,7 +5,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceArgs": "ln -sf /usr/share/zoneinfo/{{timezone}} /etc/localtime && echo {{timezone}} > /etc/timezone && TZ={{timezone}}",
+        "UpdateSourceArgs": "ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime && echo America/New_York > /etc/timezone && TZ=America/New_York",
         "SkipOnFailure": true
     }
 ]
