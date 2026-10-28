@@ -3,7 +3,7 @@
         "UpdateStageName": "Downloading Newest Build",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "ACGC-PC-Multiplayer-*-win64-first-install.zip",
+        "UpdateSourceData": "ACGC-PC-Multiplayer-0.4.1-win64-first-install.zip",
         "UpdateSourceArgs": "vsimochi/ACGC-PC-Multiplayer",
         "UpdateSourceTarget": "ACGC-PC-Multiplayer",
         "UnzipUpdateSource": true,
