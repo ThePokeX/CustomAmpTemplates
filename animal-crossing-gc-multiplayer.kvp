@@ -36,7 +36,7 @@ App.StoreDownloadLocations={}
 App.ExecutableWin=serverfiles\AnimalCrossing.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=serverfiles
-App.LinuxCommandLineArgs=-a env TZ=America/New_York /usr/bin/wine "./AnimalCrossing.exe"
+App.LinuxCommandLineArgs=-a env TZ='America/New_York' /usr/bin/wine "./AnimalCrossing.exe"
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} --host {{$MainGamePort}} --dedicated {{$FormattedArgs}} --updater-skip 
 App.UseLinuxIOREDIR=False
