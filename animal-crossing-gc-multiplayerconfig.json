@@ -110,7 +110,7 @@
         "MaxValue": 23,
         "Required": false,
         "Order": 16,
-        "ParamFieldName": "max-peers",
+        "ParamFieldName": "time",
         "IncludeInCommandLine": true,
         "DefaultValue": "0",
         "Placeholder": "0-23"
