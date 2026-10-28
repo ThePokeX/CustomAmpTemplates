@@ -1,4 +1,4 @@
-Hi, this is a git repo for my personal Cubercoders AMP game templates.
+Hi, this is a git repo for my personal Cubecoders AMP game templates. (https://cubecoders.com)
 
 ### Animal Crossing GC Multiplayer:
 This one barely works and needs some elbow grease to get up and running. Runs the server from this git repo: https://github.com/vsimochi/ACGC-PC-Multiplayer/
