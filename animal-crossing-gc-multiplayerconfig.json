@@ -112,7 +112,21 @@
         "Order": 16,
         "ParamFieldName": "time",
         "IncludeInCommandLine": true,
-        "DefaultValue": "0",
         "Placeholder": "0-23"
+    },
+    {
+        "DisplayName": "Server Timezone Offset",
+        "Category": "Animal Crossing GC Multiplayer:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "How many hours to adjust the time from the server's time?",
+        "Keywords": "hour, time, starting",
+        "FieldName": "hour-offset",
+        "InputType": "number",
+        "Required": false,
+        "Order": 17,
+        "ParamFieldName": "time",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "0",
+        "Placeholder": "-4"
     }
 ]
