@@ -111,7 +111,7 @@
         "Required": false,
         "Order": 16,
         "ParamFieldName": "time",
-        "IncludeInCommandLine": true,
+        "IncludeInCommandLine": false,
         "Placeholder": "0-23"
     },
     {
@@ -124,7 +124,7 @@
         "InputType": "number",
         "Required": false,
         "Order": 17,
-        "ParamFieldName": "time",
+        "ParamFieldName": "hour-offset",
         "IncludeInCommandLine": true,
         "DefaultValue": "0",
         "Placeholder": "-4"
